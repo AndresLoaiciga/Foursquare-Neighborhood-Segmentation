@@ -12,3 +12,7 @@ All of the relevant data I needed was in the features key. So I defined a new va
 ![image](https://user-images.githubusercontent.com/35437820/56395606-3ed6c100-6209-11e9-9b23-87b66d425784.png)
 
 The feature key contains the four items I need for my dataframe (Borough, Neighborhood, Latitude and Longitude). Next I created a blank Pandas data frame, and then looped the json data into the new _Pandas_ data frame using the for loop below:
+
+![image](https://user-images.githubusercontent.com/35437820/56395723-c15f8080-6209-11e9-9f2b-608e130e8f3b.png)
+
+Now that my data is in a _Pandas_ dataframe, it'll be much easier to manipulate and examine. Since I am only interested in neighborhoods in The Bronx and Brooklyn, I simply dropped all the rows that contained neighborhoods in Manhattan, Queens and Staten Island. Yes, Staten Island is still technically a borough of NYC. I know it's easy to forget about. Next I needed to get the top 100 venues within a 750 meter radius of each neighborhood using the Foursquare location API. I used the code below to do that:
