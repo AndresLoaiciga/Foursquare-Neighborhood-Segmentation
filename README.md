@@ -16,3 +16,9 @@ The feature key contains the four items I need for my dataframe (Borough, Neighb
 ![image](https://user-images.githubusercontent.com/35437820/56395723-c15f8080-6209-11e9-9f2b-608e130e8f3b.png)
 
 Now that my data is in a _Pandas_ dataframe, it'll be much easier to manipulate and examine. Since I am only interested in neighborhoods in The Bronx and Brooklyn, I simply dropped all the rows that contained neighborhoods in Manhattan, Queens and Staten Island. Yes, Staten Island is still technically a borough of NYC. I know it's easy to forget about. Next I needed to get the top 100 venues within a 750 meter radius of each neighborhood using the Foursquare location API. I used the code below to do that:
+
+![image](https://user-images.githubusercontent.com/35437820/56395857-4e0a3e80-620a-11e9-8d9b-8b4b5025e52c.png)
+
+From here I needed to transform the json data into a Pandas dataframe like I did above and merge the 2 dataframes together in order to have one dataframe. Now that the data frame was complete I was ready to do some exploration and further manipulation of the data.
+
+__Exploratory Data Analysis:__ Once I had my dataframe created I was ready to explore the data. For this project I wanted to map out the neighborhoods and eventually group them into 5 different clusters. Firstly I just wanted to map out the different neighborhoods and make sure my map looked good.  So the first thing I did was plot out the neighborhoods of the Bronx and Brooklyn using the Python Folium library. I used the latitude and longitude of each neighborhood and the map came out as below:
