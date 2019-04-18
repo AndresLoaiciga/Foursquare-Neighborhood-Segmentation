@@ -1,2 +1,4 @@
 # Foursquare-Neighborhood-Segmentation
 Capstone project for IBM Data Science Professional Certification
+-----------------------------------------------------------------
+__Introduction__: Brooklyn is on the rise while The Bronx is unfortunately in decline. I myself am a native New Yorker and grew up in and spent most of my life in The Bronx. I very much like my neighborhood, but it's a long commute to lower Manhattan and it has an older median age. I have been thinking about relocating to Brooklyn to be closer to lower Manhattan and to be around more people my age. In this project I want to segment the different neighborhoods in both The Bronx and Brooklyn to see which, if any, neighborhoods in Brooklyn are closely related to my neighborhood in The Bronx. I am going to use the Foursquare API to compare the neighborhoods based on the venues (restaurants, bars, gyms, etc...) present in the different neighborhoods. 
