@@ -31,3 +31,7 @@ Everything looks good to me. From there I wanted to do the same thing, but only 
 
 My neighborhood is very residential and located next to the largest park in New York City, so most of the venues are located on 2 or three streets. The first five rows of the data frame used to map it looked like this:
 
+![image](https://user-images.githubusercontent.com/35437820/56396135-7a728a80-620b-11e9-8ec8-c9c1dd7a5a33.png)
+
+I was ready to group all the categories of the different venues in each neighborhood in The Bronx and Brooklyn. There were 354 unique venue categories ranging everywhere from Adult Boutiques to Speakeasies to Zoos and of course Pizza Parlors. I then had to encode the data and get dummy variables of all the different categories. Once I did that I was able to break down the frequency of the different categories of each neighborhood. The 5 most frequent venues for my neighborhood are listed below:
+
