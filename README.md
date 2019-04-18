@@ -5,3 +5,5 @@ __Introduction:__ Brooklyn is on the rise while The Bronx is unfortunately in de
 
 __Getting the Data:__ In order to create the data frame I needed to first download a json file. This json contains all the names, the borough, and latitude and longitude of every neighborhood in New York City. The code below is how I extracted the json file from the internet: 
 ![image](https://user-images.githubusercontent.com/35437820/56395484-ce2fa480-6208-11e9-919c-a19c5e003d8c.png)
+
+All of the relevant data I needed was in the features key. So I defined a new variable that included the features data . Below is what the data looked like before I transformed the data into a Pandas dataframe:
