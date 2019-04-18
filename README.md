@@ -26,3 +26,8 @@ __Exploratory Data Analysis:__ Once I had my dataframe created I was ready to ex
 ![image](https://user-images.githubusercontent.com/35437820/56395976-d4268500-620a-11e9-8969-c13d384ca5c1.png)
 
 Everything looks good to me. From there I wanted to do the same thing, but only look at the venues that are located in my neighborhood, Pelham Bay. There were only 53 venues found in my neighborhood. The map is visualized below: 
+
+![image](https://user-images.githubusercontent.com/35437820/56396054-28316980-620b-11e9-8dae-71ba176d40cd.png)
+
+My neighborhood is very residential and located next to the largest park in New York City, so most of the venues are located on 2 or three streets. The first five rows of the data frame used to map it looked like this:
+
