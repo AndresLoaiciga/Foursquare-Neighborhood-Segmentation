@@ -35,3 +35,6 @@ My neighborhood is very residential and located next to the largest park in New 
 
 I was ready to group all the categories of the different venues in each neighborhood in The Bronx and Brooklyn. There were 354 unique venue categories ranging everywhere from Adult Boutiques to Speakeasies to Zoos and of course Pizza Parlors. I then had to encode the data and get dummy variables of all the different categories. Once I did that I was able to break down the frequency of the different categories of each neighborhood. The 5 most frequent venues for my neighborhood are listed below:
 
+![image](https://user-images.githubusercontent.com/35437820/56396238-e5bc5c80-620b-11e9-90e6-63c6c0274c59.png)
+
+Now I was almost ready to start clustering the neighborhoods. To make things easier I only wanted to use the top 10 venues in each neighborhood for comparison. I created a new dataframe with the neighborhoods and the top 10 venues and the top 5 rows  which looked like this:
