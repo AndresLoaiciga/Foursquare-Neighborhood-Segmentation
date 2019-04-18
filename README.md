@@ -22,3 +22,7 @@ Now that my data is in a _Pandas_ dataframe, it'll be much easier to manipulate 
 From here I needed to transform the json data into a Pandas dataframe like I did above and merge the 2 dataframes together in order to have one dataframe. Now that the data frame was complete I was ready to do some exploration and further manipulation of the data.
 
 __Exploratory Data Analysis:__ Once I had my dataframe created I was ready to explore the data. For this project I wanted to map out the neighborhoods and eventually group them into 5 different clusters. Firstly I just wanted to map out the different neighborhoods and make sure my map looked good.  So the first thing I did was plot out the neighborhoods of the Bronx and Brooklyn using the Python Folium library. I used the latitude and longitude of each neighborhood and the map came out as below:
+
+![image](https://user-images.githubusercontent.com/35437820/56395976-d4268500-620a-11e9-8969-c13d384ca5c1.png)
+
+Everything looks good to me. From there I wanted to do the same thing, but only look at the venues that are located in my neighborhood, Pelham Bay. There were only 53 venues found in my neighborhood. The map is visualized below: 
