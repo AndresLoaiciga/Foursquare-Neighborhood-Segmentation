@@ -21,7 +21,7 @@ Now that my data is in a _Pandas_ dataframe, it'll be much easier to manipulate 
 
 From here I needed to transform the json data into a Pandas dataframe like I did above and merge the 2 dataframes together in order to have one dataframe. Now that the data frame was complete I was ready to do some exploration and further manipulation of the data.
 
-__Exploratory Data Analysis:__ Once I had my dataframe created I was ready to explore the data. For this project I wanted to map out the neighborhoods and eventually group them into 5 different clusters. Firstly I just wanted to map out the different neighborhoods and make sure my map looked good.  So the first thing I did was plot out the neighborhoods of the Bronx and Brooklyn using the Python Folium library. I used the latitude and longitude of each neighborhood and the map came out as below:
+__Exploratory Data Analysis:__ Once I had my dataframe created I was ready to explore the data. For this project I wanted to map out the neighborhoods and eventually group them into 5 different clusters. Firstly I just wanted to map out the different neighborhoods and make sure my map looked good.  So the first thing I did was plot out the neighborhoods of the Bronx and Brooklyn using the Python _Folium_ library. I used the latitude and longitude of each neighborhood and the map came out as below:
 
 ![image](https://user-images.githubusercontent.com/35437820/56395976-d4268500-620a-11e9-8969-c13d384ca5c1.png)
 
@@ -38,3 +38,9 @@ I was ready to group all the categories of the different venues in each neighbor
 ![image](https://user-images.githubusercontent.com/35437820/56396238-e5bc5c80-620b-11e9-90e6-63c6c0274c59.png)
 
 Now I was almost ready to start clustering the neighborhoods. To make things easier I only wanted to use the top 10 venues in each neighborhood for comparison. I created a new dataframe with the neighborhoods and the top 10 venues and the top 5 rows  which looked like this:
+
+![image](https://user-images.githubusercontent.com/35437820/56397290-0e932080-6211-11e9-9234-330ad92764e0.png)
+
+Once that was done I could run a _k_-means clustering algorithm on the data and assign a cluster to every neighborhood that was similar to one another. From there I was able to look at my results and compare the neighborhoods. 
+
+__Results:__ After I ran the k-means clustering on the data and added the clusters to the data frame I wanted to map out all the different clusters to get a nice visualization of the similar neighborhoods. Below is the map with my neighborhood pointed out:
