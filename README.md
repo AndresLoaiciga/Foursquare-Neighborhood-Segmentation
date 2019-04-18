@@ -44,3 +44,14 @@ Now I was almost ready to start clustering the neighborhoods. To make things eas
 Once that was done I could run a _k_-means clustering algorithm on the data and assign a cluster to every neighborhood that was similar to one another. From there I was able to look at my results and compare the neighborhoods. 
 
 __Results:__ After I ran the k-means clustering on the data and added the clusters to the data frame I wanted to map out all the different clusters to get a nice visualization of the similar neighborhoods. Below is the map with my neighborhood pointed out:
+
+![image](https://user-images.githubusercontent.com/35437820/56397356-629e0500-6211-11e9-93b3-a70bdefca432.png)
+
+__Conclusion:__ My neighborhood, Pelham Bay was located in the largest cluster of all of them. Apparently my neighborhood isn't to unique. My neighborhood is much more like most other Bronx neighborhoods and southern and eastern Brooklyn neighborhoods. I was thinking about moving to the north eastern part of Brooklyn (the green cluster). Apparently it's not as similar to my neighborhood as I would've thought. I'm sure it has to do with the gentrification of those Brooklyn neighborhoods and hipster influence on them. Like I stated in the introduction my neighborhood has a high median age, which would have an affect on what type of venues would be in each neighborhood. 
+
+Some further examination to be done:
+Add more clusters.
+Look at features such as crime rate, demographics, and median age of each neighborhood. 
+Use the top 20 or 30 venues next time instead of just the top 10. 
+
+Thanks for reading and feel free to see all the code above. Also visit my website to see this project and other projects at www.andrewcarl.nyc 
