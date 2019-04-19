@@ -48,7 +48,7 @@ __Results:__ After I ran the k-means clustering on the data and added the cluste
 
 ![image](https://user-images.githubusercontent.com/35437820/56397356-629e0500-6211-11e9-93b3-a70bdefca432.png)
 
-__Conclusion:__ My neighborhood, Pelham Bay was located in the largest cluster of all of them. Apparently my neighborhood isn't to unique. My neighborhood is much more like most other Bronx neighborhoods and southern and eastern Brooklyn neighborhoods. I was thinking about moving to the north eastern part of Brooklyn (the green cluster). Apparently it's not as similar to my neighborhood as I would've thought. I'm sure it has to do with the gentrification of those Brooklyn neighborhoods and hipster influence on them. Like I stated in the introduction my neighborhood has a high median age, which would have an affect on what type of venues would be in each neighborhood. 
+__Conclusion:__ My neighborhood, Pelham Bay was located in the largest cluster of all of them. Apparently my neighborhood isn't to unique. My neighborhood is much more like most other Bronx neighborhoods and southern and eastern Brooklyn neighborhoods. I was thinking about moving to the north western part of Brooklyn (the green cluster). Apparently it's not as similar to my neighborhood as I would've thought. I'm sure it has to do with the gentrification of those Brooklyn neighborhoods and hipster influence on them. Like I stated in the introduction my neighborhood has a high median age, which would have an affect on what type of venues would be in each neighborhood. 
 
 Some further examination to be done:
 Add more clusters.
